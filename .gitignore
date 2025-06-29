@@ -1,4 +1,10 @@
 credentials.json
-__pycache__/
+# 忽略環境變數檔案
 .env
+
+# Python 相關
+__pycache__/
+*.pyc
+.venv/
+.env/
 *.log
