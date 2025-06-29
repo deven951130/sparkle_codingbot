@@ -25,12 +25,11 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 
-# ====== 載入 .env 變數 =======
-load_dotenv()
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
-USER_ID = int(os.getenv('USER_ID'))
-DRIVE_FOLDER_ID = os.getenv('DRIVE_FOLDER_ID')
+
+DISCORD_TOKEN ='MTM4ODQ1NDk2MTUxNTQ2MjY2Ng.GvpHSA.YRRlIxjggn3mLCTvrRTSfjuTFuEP3bY6EiTSxA'
+CHANNEL_ID = int('1388449664382009364')
+USER_ID = int('1121088767986520184')
+DRIVE_FOLDER_ID ='1dqbkiy8Et4wb0wWwVun8laJdaHO78Kae'
 SERVICE_ACCOUNT_FILE = 'credentials.json'
 
 # ====== 初始化 Discord Bot =======
