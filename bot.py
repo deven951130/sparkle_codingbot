@@ -27,7 +27,7 @@ def keep_alive():
 
 # ====== 載入 .env 變數 =======
 load_dotenv()
-DISCORD_TOKEN="MTM4ODQ1NDk2MTUxNTQ2MjY2Ng.G_nL21.ZKd89nT01-oI-P_ffsmRiH6__uSx3LSw4Qd8Cw"
+DISCORD_TOKEN="MTM4ODQ1NDk2MTUxNTQ2MjY2Ng.GvpHSA.YRRlIxjggn3mLCTvrRTSfjuTFuEP3bY6EiTSxA"
 CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
 USER_ID = int(os.getenv('USER_ID'))
 DRIVE_FOLDER_ID = os.getenv('DRIVE_FOLDER_ID')
