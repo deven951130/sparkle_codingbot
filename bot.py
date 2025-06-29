@@ -26,9 +26,9 @@ def keep_alive():
     t.start()
 
 
-DISCORD_TOKEN = "MTM4ODQ1NDk2MTUxNTQ2MjY2Ng.GvpHSA.YRRlIxjggn3mLCTvrRTSfjuTFuEP3bY6EiTSxA"
-CHANNEL_ID = 123456789012345678  # 取代成目標頻道的 ID（純數字）
-USER_ID = 123456789012345678     # 要 mention 的用戶 ID（純數字）
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
+CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
+USER_ID = int(os.getenv('USER_ID'))
 DRIVE_FOLDER_ID ="1dqbkiy8Et4wb0wWwVun8laJdaHO78Kae"
 SERVICE_ACCOUNT_FILE = 'credentials.json'
 
