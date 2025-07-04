@@ -84,7 +84,7 @@ async def send_question():
     global already_sent_today
     now = datetime.now()
 
-    if now.hour == 1 and now.minute == 0:
+    if now.hour == 9 and now.minute == 0:
         if not already_sent_today:
             channel = bot.get_channel(CHANNEL_ID)
             user_mention = f'<@{USER_ID}>'
